@@ -1,0 +1,89 @@
+<!doctype html>
+   <html>
+        <head>
+       <title>FORM</title>
+       <link rel="stylesheet" href="form.css">
+       <script href="form.js"></script>
+	   </head>
+                      <body>
+					   
+					      <marquee behavior="" direction="right"><h1>----- FEEDBACK FORM-----</h1></marquee>
+							<p id="p2">  </p>
+						<form>
+						 <table border="0">
+						  <tr>
+						        <td id="label">ENTER YOUR FIRST NAME :</td>
+								<td><input type="text" name="fname" id="f1" onblur="check()" autofocus ><span id="s1"></span></td>
+								
+							</tr>
+						  <tr>	
+						        <td id="label"> ENTER YOUR LAST NAME :</td>
+								<td><input type="text" name="lname"> </td>
+						 </tr>
+						    <tr>
+							<td id="label" > ENTER EMAIL ID :</td>
+							<td><input type="email" name="mail" id="m1" onblur="check2()"> <span id="s2"></span></td>
+							    </tr>
+							 <tr>
+							<td id="label"> ENTER MOBILE NUMBER :</td>
+							<td><input type="tel" name="num" id="n1" onclick="check3()" pattern="[0-9]{3}-[0-9]{4}-[0-9]{3}"><span id="s3"></span></td>
+							    </tr>
+							 
+							
+						    <tr>
+						      <td id="label">SELECT THE ITEM YOU PURCHASED : </td>	
+						      <td><input type="radio" name="clt" value="on">Specialized Gift</td>
+							  <td><input type="radio" name="clt" value="on">Novel/Book</td>
+							  <td><input type="radio" name="clt" value="on">ELECTRICAL APPLIANCE</td>
+							  <td><input type="radio" name="clt" value="on">WOMEN'S FASHION</td>
+							  <td><input type="radio" name="clt" value="on"> MEN'S FASHION</td>
+							  <td><input type="radio" name="clt" value="on">Gift Card</td>
+							  </tr>
+							  							     <tr>
+							<td id="label"> SELECT NUMBER OF ITEMS YOU PURCHASED :</td>
+							<td><input list="browsers"><datalist id="browsers" >
+							<option value="1" >
+							<option value="2">
+							<option value="3">
+							<option value="4">
+							<option value="5">
+							</datalist>
+							</TD>
+							    </tr>
+
+							   <tr>
+							<td id="label"> SELECT DATE OF PURCHASE :</td>
+							<td><input type="date" name="date" required> </td>
+							    </tr>
+							<tr>
+							   <td id="label">PLEASE ENTER YOUR REVIEW OR COMPLAIN(IF ANY) :</td>
+							   <td><textarea name="review" rows="6" cols="20" > Write here...</textarea></td>
+						  </tr>
+						  <tr>
+						     <td id="label" > YOU CAN UPLOAD A FILE HERE : </TD>
+							  <td><input type="file" name="fle"></td>
+							</tr>  <BR>
+							<tr> 
+							<td id="label">PLEASE RATE OUR SERVICES : </TD>
+							<td>1 :(<input type="range" name="rate" min="1" max="5">5 :)</td>
+							</tr>
+						
+							  <tr>
+							  <td><a id="a1" href="https://help.formstack.com/hc/article_attachments/360015218271/image-1.jpeg" target="_blank">Click TO Submit</a></td>
+
+							  </td>
+							  </tr>
+
+							  
+						   </table>
+						 </form>  
+						 							
+							 
+							 <footer> 
+                         <p>SUBMITTED BY:CHETAN PATHAK</p>
+                         
+                           </footer>
+							
+						 
+					</body>  
+	</html>
